@@ -10,5 +10,5 @@ public class StuSample2 {
 		stu.setStuNo(1);
 		stu.display();
 	}
-
+	//コメント
 }
