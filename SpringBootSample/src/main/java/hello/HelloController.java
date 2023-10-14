@@ -23,8 +23,8 @@ public class HelloController {
 		return "hello/response";
 	}
 
-	@PostMapping("/ hello/db")
-	public String postDbRequest(@RequestParam("text 2") String id, Model model) {
+	@PostMapping("/hello/db")
+	public String postDbRequest(@RequestParam("text2") String id, Model model) {
 		// 1 件 検索 
 		Employee employee = service.getEmployee(id);
 		// 検索 結果 を Model に 登録 
